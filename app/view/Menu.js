@@ -11,60 +11,63 @@ Ext.define('WTF.view.Menu', {
             }
         },
         //activeItem: 2,
-        items: [
-            	{
+        items: [{
                 title: 'Breakfast',
-                layout:'fit',
+                layout: 'fit',
                 //iconCls: 'home',
-                items: [
-                {
+                items: [{
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Breakfast Menu'
                 },
                 {
-                	xtype: 'list',
-                	store: 'Meals',
-                	itemTpl: '{name}, {menu}'
-                }
-        	]
-                /*html: [
-                    "Breakfast menu will be here"
-                ].join(""),*/
-
-                /*initialize: function() {
-                    console.log("init breakfast");
-                    var xmlhttp = new XMLHttpRequest();
-                    xmlhttp.open("GET", "http://www.colby.edu/communications/feeds/dining-Dana.xml");
-                    xmlhttp.send();
-                    xmlDoc=xmlhttp.responseXML;
-                    this.update(xmlDoc);
-                }*/
+                    xtype: 'list',
+                    store: 'BreakfastMenus',
+                    itemTpl: '<h1>{dining_hall}</h1><br/> {menu}',
+                    itemCls: 'menu',
+                    indicator: true,                    
+                }]
             },
             {
                 title: 'Lunch',
+                layout: 'fit',
                 //iconCls: 'home',
-
-
-                items: {
+                items: [{
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Lunch Menu'
-                }
-
-                /*html: [
-                    "Lunch menu will be here"
-                ].join("")*/
+                },
+                {
+                    xtype: 'list',
+                    store: 'LunchMenus',
+                    itemTpl: '<h1>{dining_hall}</h1><br/> {menu}',
+                    itemCls: 'menu',
+                    masked: {
+                        xtype: 'loadmask',
+                        message: 'Please wait. WTF? is contacting Pam for today\'s lunch menu...'
+                    }
+                }]
             },
             {
                 title: 'Dinner',
-                //iconCls: 'home',
+                layout: 'fit',
+             //iconCls: 'home',
 
-                items: {
+                items: [{
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Dinner Menu'
-                }
+                },
+                {
+                    xtype: 'list',
+                    store: 'DinnerMenus',
+                    itemTpl: '<h1>{dining_hall}</h1><br/> {menu}',
+                    itemCls: 'menu',
+                    masked: {
+                        xtype: 'loadmask',
+                        message: 'Please wait. WTF? is contacting Miss Mary for today\'s dinner menu...'
+                    }
+                }]
 
                 /*html: [
                     "Dinner menu will be here"

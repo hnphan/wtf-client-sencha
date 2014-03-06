@@ -12,16 +12,16 @@
 
 Ext.application({
     name: 'WTF',
-
+    autoMaximize: true,
     requires: [
         'Ext.MessageBox'
     ],
 
     views: [
-        'Main', 'Menu'
+        'Main', 'Menu', 'About'
     ],
     models: ['Meal'],
-    stores: ['Meals'],
+    stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus'],
     controllers: [
         'Main'
     ],
