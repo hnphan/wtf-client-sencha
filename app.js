@@ -19,7 +19,7 @@ Ext.application({
     ],
 
     views: [
-        'Main', 'Menu', 'About'
+        'Main', 'Menu', 'About', 'Settings'
     ],
     models: ['Meal', 'Date'],
     stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus', 'Dates'],
@@ -52,7 +52,11 @@ Ext.application({
         // Initialize the main view
         console.log("creating  main view in app.js");
         Ext.Viewport.add(Ext.create('WTF.view.Main'));
-
+        
+        // Adjust toolbar height when running in iOS to fit with new iOS 7 style
+        if (Ext.os.is.iOS && Ext.os.version.major >= 7) {
+            Ext.select(".x-toolbar").applyStyles("height: 62px; padding-top: 15px;");
+        }
     },
 
     onUpdated: function() {

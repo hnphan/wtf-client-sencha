@@ -3,12 +3,15 @@ Ext.define('WTF.view.Main', {
     requires: ['Ext.TitleBar'],
     xtype: 'main',
     config: {
-        cls: 'menu',
+        //cls: 'menu',
         fullscreen: true,
         tabBarPosition: 'bottom',
         items: [
             {
                 xtype: 'menucard'           
+            },
+            {
+                xtype: 'settingscard'
             },
             {
                 xtype: 'aboutcard'
