@@ -14,14 +14,15 @@ Ext.application({
     name: 'WTF',
     autoMaximize: true,
     requires: [
-        'Ext.MessageBox'
+        'Ext.MessageBox',
+        'Ext.plugin.PullRefresh'
     ],
 
     views: [
         'Main', 'Menu', 'About'
     ],
-    models: ['Meal'],
-    stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus'],
+    models: ['Meal', 'Date'],
+    stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus', 'Dates'],
     controllers: [
         'Main'
     ],

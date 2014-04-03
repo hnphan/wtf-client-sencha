@@ -48,13 +48,23 @@ Ext.define('WTF.view.Menu', {
                 },
                 {
                     xtype: 'list',
+                    docked: 'top',
+                    store: 'Dates',
+                    itemTpl: 'Hello {dateString}',
+                    itemCls: 'menu'
+                },
+                {
+                    xtype: 'list',
                     plugins: [
                         { xclass: 'Ext.plugin.PullRefresh' }
                     ],
                     store: 'BreakfastMenus',
                     itemTpl: '<h1>{dining_hall}</h1><br/> {menu}',
                     itemCls: 'menu',
-                    indicator: true,                    
+                    masked: {
+                        xtype: 'loadmask',
+                        message: 'Please wait. WTF? is contacting Pam for today\'s lunch menu...'
+                    }
                 }]
             },
             {
