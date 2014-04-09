@@ -1,12 +1,16 @@
 Ext.define('WTF.controller.Main', {
-    extend: 'Ext.app.Controller',
-    
+    extend: 'Ext.app.Controller',    
     config: {
         refs: {
-            menuView: 'menuView'
+            menuView: 'menuView',
+            settingsView: 'settingscard',
+            toggleVegan: 'settingscard vegantoggle',
+            btnSave: 'settingsView button[action=save]'
         },
         control: {
-
+            'toggleVegan': {
+                change: 'onToggle'
+            }
         }
     },
     
@@ -29,6 +33,8 @@ Ext.define('WTF.controller.Main', {
         menuView.setActiveItem(mealId);
 
         // load data
+        var settingsView = Ext.ComponentQuery.query("settingscard")[0];
+        console.log("Data: " + settingsView.getValues());
 
     }
 
