@@ -744,14 +744,17 @@ Ext.ClassManager.addNameAlternateMappings({
     "Ext.viewport.WP"
   ],
   "WTF.controller.Main": [],
+  "WTF.model.Date": [],
   "WTF.model.Meal": [],
   "WTF.store.BreakfastMenus": [],
+  "WTF.store.Dates": [],
   "WTF.store.DinnerMenus": [],
   "WTF.store.LunchMenus": [],
   "WTF.store.Meals": [],
   "WTF.view.About": [],
   "WTF.view.Main": [],
-  "WTF.view.Menu": []
+  "WTF.view.Menu": [],
+  "WTF.view.Settings": []
 });
 Ext.ClassManager.addNameAliasMappings({
   "Ext.AbstractComponent": [],
@@ -1696,8 +1699,10 @@ Ext.ClassManager.addNameAliasMappings({
   "Ext.viewport.Viewport": [],
   "Ext.viewport.WindowsPhone": [],
   "WTF.controller.Main": [],
+  "WTF.model.Date": [],
   "WTF.model.Meal": [],
   "WTF.store.BreakfastMenus": [],
+  "WTF.store.Dates": [],
   "WTF.store.DinnerMenus": [],
   "WTF.store.LunchMenus": [],
   "WTF.store.Meals": [],
@@ -1709,5 +1714,8 @@ Ext.ClassManager.addNameAliasMappings({
   ],
   "WTF.view.Menu": [
     "widget.menucard"
+  ],
+  "WTF.view.Settings": [
+    "widget.settingscard"
   ]
 });

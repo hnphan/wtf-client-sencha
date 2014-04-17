@@ -47,18 +47,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     ".sencha/app/native.properties": {
@@ -67,18 +67,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     ".sencha/app/package.properties": {
@@ -87,18 +87,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     ".sencha/app/production.properties": {
@@ -107,18 +107,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     ".sencha/app/sencha.cfg": {
@@ -127,18 +127,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     ".sencha/app/testing.properties": {
@@ -147,18 +147,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "app.js": {
@@ -167,18 +167,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "app.json": {
@@ -187,18 +187,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "index.html": {
@@ -207,18 +207,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "packager.json": {
@@ -227,18 +227,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "resources/sass/app.scss": {
@@ -247,18 +247,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "resources/sass/config.rb": {
@@ -267,18 +267,18 @@
       "parameters": {
         "viewNamespace": "WTF.view",
         "frameworkName": "touch",
-        "frameworkPath": "touch",
-        "senchadir": ".sencha",
-        "appModels": "",
-        "appControllers": "",
-        "appViews": "",
-        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc",
         "appName": "WTF",
-        "modelNamespace": "WTF.model",
-        "name": "WTF",
-        "library": "core",
         "controllerNamespace": "WTF.controller",
-        "appStores": ""
+        "frameworkPath": "touch",
+        "appModels": "",
+        "library": "core",
+        "senchadir": ".sencha",
+        "appStores": "",
+        "name": "WTF",
+        "appViews": "",
+        "appControllers": "",
+        "modelNamespace": "WTF.model",
+        "uniqueId": "9dd16ee5-2ad2-4e5f-9bc9-414e0c8e66cc"
       }
     },
     "app/controller/Main.js": {

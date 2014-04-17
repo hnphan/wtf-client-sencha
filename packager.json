@@ -17,7 +17,7 @@
 	 * @cfg  bundleSeedId
 	 * A ten character string which stands before aplication ID in Apple Provisioning Portal
 	 */
-	"bundleSeedId":"KPXFEPZ6EF",
+	"bundleSeedId":"F2N6V92UB4",
 
 	/**
 	 * @cfg  versionString
@@ -65,7 +65,7 @@
 	 * @required
 	 * This is where the built application file with be saved. Make sure that output path is not in your input path, you may get into endless recursive copying
 	 */
-	"outputPath":"C:\\Users\\Hieu\\workspace\\androidapp",
+	"outputPath":"~/workspace/payload/",
 
 	/**
 	 * @cfg  configuration
@@ -84,7 +84,7 @@
 	 *  - Android
 	 *  - AndroidEmulator
 	 */
-	"platform":"Android",
+	"platform":"iOSSimulator",
 
 	/**
 	 * @cfg  deviceType
@@ -128,7 +128,7 @@
 	 * @cfg  provisionProfile
 	 * The path to the provision profile (APP_NAME.mobileprovision) which you can create and then download from Apple's provisioning portal
 	 */
-	"provisionProfile":"",
+	"provisionProfile":"dist_mbp.mobileprovision",
 	/**
 	 * @cfg  notificationConfiguration
 	 * Notification configuration for push notifications, can be "debug", "release" or empty if you don't use push notifications in your project.
