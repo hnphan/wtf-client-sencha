@@ -6,9 +6,9 @@ Ext.define('WTF.model.Setting', {
         identifier: 'uuid',
         fields: [
             { name: 'id', type: 'auto' },
-            { name: 'vegan', type: 'boolean' },
-            { name: 'veggie', type: 'boolean' },
-            { name: 'gfree', type: 'boolean' }
+            { name: 'vegantoggle', type: 'boolean' },
+            { name: 'veggietoggle', type: 'boolean' },
+            { name: 'gfreetoggle', type: 'boolean' }
         ],
 		proxy: {
 		    type: 'localstorage',

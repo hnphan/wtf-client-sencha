@@ -21,11 +21,22 @@ Ext.define('WTF.controller.Main', {
     //called when the Application is launched, remove if not needed
     launch: function(app) {        
         // query for menu view
+        WTF.utils.Functions.loadData();
         WTF.utils.Functions.setMenu();
     },
     
     onSave: function() {
     	console.log("Saving..");
+
+        var store = Ext.getStore('Settings');
+        //remove previous settings
+        store.removeAll();
+        store.sync();
+
+        var model = Ext.create("WTF.model.Setting", {});
+        this.getSettingsView().updateRecord(model);
+        store.add(model.getData());
+        store.sync();
     },
     
     onVeganToggle: function(toggleField) {

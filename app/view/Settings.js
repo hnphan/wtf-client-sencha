@@ -23,7 +23,7 @@ Ext.define('WTF.view.Settings', {
             items: [
                 {
                     xtype: 'togglefield',
-                    name: 'gftoggle',
+                    name: 'gfreetoggle',
                     label: 'Gluten free'
                 },
                 {

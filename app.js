@@ -51,7 +51,6 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        console.log("creating  main view in app.js");
         Ext.Viewport.add(Ext.create('WTF.view.Main'));
         
         // Adjust toolbar height when running in iOS to fit with new iOS 7 style
