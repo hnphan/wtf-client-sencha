@@ -1,18 +1,11 @@
 Ext.define('WTF.view.Settings', {
     extend: 'Ext.form.Panel',
-    requires: ['Ext.TitleBar', 'Ext.dataview.List'],
+    requires: ['Ext.TitleBar', 'Ext.dataview.List', 'Ext.form.FieldSet', 'Ext.field.Toggle'],
     xtype: 'settingscard',
     config: {
         title: 'Settings',
         iconCls: 'settings',
         styleHtmlContent: true,
-        listeners: {
-            '> field': {
-                change: function(field, newValue, oldValue) {
-                    console.log('changed');
-                }
-            }
-        },
         items: [{
             docked: 'top',
             xtype: 'toolbar',

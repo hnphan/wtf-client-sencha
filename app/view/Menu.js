@@ -55,6 +55,7 @@ Ext.define('WTF.view.Menu', {
                 },
                 {
                     xtype: 'list',
+                    name: 'breakfastMenuList',
                     plugins: [
                         { xclass: 'Ext.plugin.PullRefresh' }
                     ],

@@ -15,7 +15,8 @@ Ext.application({
     autoMaximize: true,
     requires: [
         'Ext.MessageBox',
-        'Ext.plugin.PullRefresh'
+        'Ext.plugin.PullRefresh',
+        'WTF.utils.Functions'
     ],
 
     views: [
@@ -24,7 +25,7 @@ Ext.application({
     models: ['Meal', 'Date'],
     stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus', 'Dates'],
     controllers: [
-        'Main'
+        'Main', 'Menu'
     ],
 
     icon: {
