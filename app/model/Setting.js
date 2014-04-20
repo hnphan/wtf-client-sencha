@@ -8,7 +8,8 @@ Ext.define('WTF.model.Setting', {
             { name: 'id', type: 'auto' },
             { name: 'vegantoggle', type: 'boolean' },
             { name: 'veggietoggle', type: 'boolean' },
-            { name: 'gfreetoggle', type: 'boolean' }
+            { name: 'gfreetoggle', type: 'boolean' },
+            { name: 'noporktoggle', type: 'boolean'}
         ],
 		proxy: {
 		    type: 'localstorage',

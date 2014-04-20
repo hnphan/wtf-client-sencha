@@ -18,10 +18,13 @@ Ext.define('WTF.utils.Functions', {
 					var vegan = records[0].get('vegantoggle');
 					var veggie = records[0].get('veggietoggle');
 					var gfree = records[0].get('gfreetoggle');
+					var nopork = records[0].get('noporktoggle');
 					
 					Ext.ComponentQuery.query('settingscard togglefield[name=veggietoggle]')[0].setValue(veggie);
 					Ext.ComponentQuery.query('settingscard togglefield[name=vegantoggle]')[0].setValue(vegan);
 					Ext.ComponentQuery.query('settingscard togglefield[name=gfreetoggle]')[0].setValue(gfree);
+					Ext.ComponentQuery.query('settingscard togglefield[name=noporktoggle]')[0].setValue(nopork);
+
 				}
 			}
 		});
