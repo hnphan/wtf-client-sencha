@@ -54,9 +54,13 @@ Ext.application({
         Ext.Viewport.add(Ext.create('WTF.view.Main'));
         
         // Adjust toolbar height when running in iOS to fit with new iOS 7 style
-        //if (Ext.os.is.iOS && Ext.os.version.major >= 7) {
+        if (Ext.os.is.iOS && Ext.os.version.major >= 7) {
+            console.log("App height adjusted to fit iOS7 devices")
             Ext.getCmp("ext-tabbar-1").setStyle("margin-top: 20px;");
-        //}
+            Ext.getCmp("ext-toolbar-1").setStyle("margin-top: 20px;");
+            Ext.getCmp("ext-toolbar-2").setStyle("margin-top: 20px;");
+
+        }
     },
 
     onUpdated: function() {
