@@ -40,7 +40,7 @@ Ext.define('WTF.view.Settings', {
                         xtype: 'togglefield',
                         name: 'noporktoggle',
                         label: 'No pork'
-                    },
+                    }/*,
                     {
                         xtype: 'button',
                         text: 'Save',
@@ -48,13 +48,8 @@ Ext.define('WTF.view.Settings', {
                         margin: '10 5',
                         ui: 'confirm',
                         width: '30%'
-                    }
+                    }*/
                 ]
-            },
-            {
-                xtype: 'label',
-                text: 'hellooooo',
-                width: '100%'
             }
         ]
     }

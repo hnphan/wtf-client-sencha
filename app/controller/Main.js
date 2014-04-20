@@ -8,8 +8,8 @@ Ext.define('WTF.controller.Main', {
             toggleVegan: 'settingscard togglefield[name=vegantoggle]',
             toggleVeggie: 'settingscard togglefield[name=veggietoggle]',
             toggleGFree: 'settingscard togglefield[name=gfreetoggle]',
-            toggleNoPork: 'settingscard togglefield[name=noporktoggle]',
-            btnSave: 'settingscard button[action=save]'
+            toggleNoPork: 'settingscard togglefield[name=noporktoggle]'
+            //btnSave: 'settingscard button[action=save]'
         },
         control: {
             'toggleVegan': {
@@ -24,9 +24,9 @@ Ext.define('WTF.controller.Main', {
             'toggleNoPork': {
                 change: 'onNoPorkToggle'
             },
-            'btnSave': {
+            /*'btnSave': {
             	tap: 'onSave'
-            }
+            }*/
         }
     },
     
@@ -37,7 +37,7 @@ Ext.define('WTF.controller.Main', {
         WTF.utils.Functions.setMenu();
     },
     
-    onSave: function() {
+    saveSettings: function() {
     	console.log("Saving..");
 
         var store = Ext.getStore('Settings');
@@ -54,21 +54,25 @@ Ext.define('WTF.controller.Main', {
     onVeganToggle: function(toggleField) {
     	if (toggleField.getValue() === 0) console.log("Vegan OFF");
     	else console.log("Vegan ON");
+        this.saveSettings();
     },
 
     onVeggieToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("Veggie OFF");
         else console.log("Veggie ON");
+        this.saveSettings();
     },
 
     onGFreeToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("GFree OFF");
         else console.log("GFree ON");
+        this.saveSettings();
     },
 
     onNoPorkToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("No Pork OFF");
         else console.log("No Pork ON");
+        this.saveSettings();
     }
 
 
