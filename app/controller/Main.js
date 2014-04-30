@@ -55,24 +55,30 @@ Ext.define('WTF.controller.Main', {
     	if (toggleField.getValue() === 0) console.log("Vegan OFF");
     	else console.log("Vegan ON");
         this.saveSettings();
+        // Refactor later: loadData does more than it needs
+        WTF.utils.Functions.loadData();
     },
 
     onVeggieToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("Veggie OFF");
         else console.log("Veggie ON");
         this.saveSettings();
+        WTF.utils.Functions.loadData();
     },
 
     onGFreeToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("GFree OFF");
         else console.log("GFree ON");
         this.saveSettings();
+        WTF.utils.Functions.loadData();
     },
 
     onNoPorkToggle: function(toggleField) {
         if (toggleField.getValue() === 0) console.log("No Pork OFF");
         else console.log("No Pork ON");
         this.saveSettings();
+        WTF.utils.Functions.loadData();
+
     }
 
 

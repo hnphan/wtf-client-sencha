@@ -11,6 +11,9 @@ Ext.define('WTF.view.Main', {
                 xtype: 'menucard'           
             },
             {
+                xtype: 'remindercard'
+            },
+            {
                 xtype: 'settingscard'
             },
             {

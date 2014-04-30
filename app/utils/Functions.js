@@ -5,8 +5,18 @@ Ext.define('WTF.utils.Functions', {
 	requires: [
 	],
 
+	// global constants
+	API_ROOT: "http://localhost:5000/api/",
+
+	menuUrlGenerator: function(meal, vegan, veggie, gfree, nopork) {
+		url = this.API_ROOT + meal + "/?vegan=" + vegan + "&veggie=" + veggie + "&gfree=" + gfree + "&nopork=" + nopork;
+		return url;
+	},
+
 	loadData: function() {
 		console.log("Loading local storage data...")
+		console.log("Device id " + Ext.device.Device.uuid);
+		//alert("Device id " + Ext.device.Device.uuid);
 		var me = this;
 
 		Ext.getStore('Settings').load({
@@ -19,7 +29,40 @@ Ext.define('WTF.utils.Functions', {
 					var veggie = records[0].get('veggietoggle');
 					var gfree = records[0].get('gfreetoggle');
 					var nopork = records[0].get('noporktoggle');
-					
+
+					// lunch
+					menuUrl = me.menuUrlGenerator('lunch',vegan,veggie,gfree,nopork);
+					console.log('menu Url ' + menuUrl);
+					// set appropriate proxy url
+					store = Ext.StoreMgr.get('LunchMenus');
+					console.log("configuring store...");
+					store.setProxy({
+						type: 'ajax',
+						url: menuUrl,
+						reader: {
+							type: 'json',
+							rootProperty: 'results'
+						}
+					});	
+					store.load();
+
+					// dinner
+					menuUrl = me.menuUrlGenerator('dinner',vegan,veggie,gfree,nopork);
+					console.log('menu Url ' + menuUrl);
+					// set appropriate proxy url
+					store = Ext.StoreMgr.get('DinnerMenus');
+					console.log("configuring store...");
+					store.setProxy({
+						type: 'ajax',
+						url: menuUrl,
+						reader: {
+							type: 'json',
+							rootProperty: 'results'
+						}
+					});	
+					store.load();
+
+					// set data in settings menu
 					Ext.ComponentQuery.query('settingscard togglefield[name=veggietoggle]')[0].setValue(veggie);
 					Ext.ComponentQuery.query('settingscard togglefield[name=vegantoggle]')[0].setValue(vegan);
 					Ext.ComponentQuery.query('settingscard togglefield[name=gfreetoggle]')[0].setValue(gfree);

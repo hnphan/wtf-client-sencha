@@ -16,16 +16,17 @@ Ext.application({
     requires: [
         'Ext.MessageBox',
         'Ext.plugin.PullRefresh',
-        'WTF.utils.Functions'
+        'WTF.utils.Functions',
+        'Ext.device.Device'
     ],
 
     views: [
-        'Main', 'Menu', 'About', 'Settings'
+        'Main', 'Menu', 'About', 'Settings', 'Reminder', 'AddReminder'
     ],
-    models: ['Meal', 'Date'],
+    models: ['Meal', 'Date', 'Setting'],
     stores: ['BreakfastMenus', 'LunchMenus', 'DinnerMenus', 'Dates'],
     controllers: [
-        'Main', 'Menu'
+        'Main', 'Menu', 'CtrlAddReminder'
     ],
 
     icon: {
